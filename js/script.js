@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
               mode: 'no-cors' 
           })
           .then(response => {
+              console.log(response);
               dataLayer.push({'event': 'event_form_register'});
               window.location.href = 'confirmacion.html';
               // document.getElementById('registroForm').style.display = 'none';
