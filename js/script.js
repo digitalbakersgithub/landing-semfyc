@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return false;
           
       } else {
-          fetch('https://semfyc.us21.list-manage.com/subscribe/post?u=a4b89ba3614c3d1d94ac5f097&amp;id=5d80499926&amp;f_id=00d8f2e6f0', {
+          fetch('https://semfyc.us21.list-manage.com/subscribe/post?u=a4b89ba3614c3d1d94ac5f097&amp;id=b5e765e0ee&amp;f_id=00a3f9e6f0', {
               method: 'POST',
               body: formData,
               mode: 'no-cors' 
